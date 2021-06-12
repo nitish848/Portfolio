@@ -139,3 +139,19 @@ main .gitbtn{
     font-size: 20px;
     color: #0FDAB5;
 }
+.aboutme{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.aboutme h3{
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+strong{
+    color: #0FDAB5;
+}
