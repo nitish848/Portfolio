@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: #383737;
+    font-size: 200.5%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+.logo{
+    width: 80px;
+    height: 70px;
+    background-color: #383737;
+    border: 5px solid #0FDAB5;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > h1{
+    color: #0FDAB5;
+    font-size: 44px;
+    font-family: 'poppins';
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+.menu >ul{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btnresume>button{
+    background-color: #383737;
+    border: 3px solid #0FDAB5;
+    height: 68px;
+    width: 180px;
+    color: #0FDAB5;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.socialmedia{
+    position: fixed;
+    bottom: 0%;
+    left: 5%;
+}
+
+.socialmedia  i{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 67%;
+    margin-left: -25%;
+}
+.socialmedialine{
+    width: 1px;
+    height: 82px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.email{
+    position: fixed;
+    bottom: 0%;
+    right: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.emailline{
+    width: 1px;
+    height: 82px;
+    border-radius: 10px;
+    background-color: white;
+}
+.emailwr{
+    color: white;
+    font-size: 15px;
+    transform: rotate(90deg);
+    margin-bottom: 40%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+main > div{
+    display: flex;
+    flex-direction: row;
+}
+main h1{
+    margin-top: -40px;
+    color: #0FDAB5;
+}
+main h2{
+    margin-top: -40px;
+    color: #98DED1;
+}
+main h4{
+    margin-right: 10px;
+}
+main .gitbtn{
+    width: 230px;
+    height: 66px;
+    border-radius: 10px;
+    border: 3px solid #0FDAB5;
+    background-color: #383737;
+    font-size: 20px;
+    color: #0FDAB5;
+}
