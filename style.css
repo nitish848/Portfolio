@@ -152,6 +152,9 @@ main .gitbtn{
     font-size: 50px;
     margin-bottom: -20px;
 }
+.aboutme h4{
+    margin-left: 15px;
+}
 strong{
     color: #0FDAB5;
 }
