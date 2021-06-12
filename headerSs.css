@@ -14,6 +14,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 20px;
+    box-shadow: 2px 2px 7px 2px #0fdab5;
+
 }
 .logo1 > h1{
     color: #0FDAB5;
