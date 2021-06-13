@@ -34,6 +34,9 @@
 }
 .menuicon{
     margin-right: 20px;
+    z-index: 1;
+    position: fixed;
+    right: 0%;
 }
 .menuicon > .line2{
     height: 7px;

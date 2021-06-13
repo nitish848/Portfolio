@@ -93,6 +93,7 @@
     .ednSkills .row2{
         display: flex;
     }
+
   }
 
   @media only screen and (max-width: 680px) {
@@ -184,16 +185,5 @@
         font-size: 30px;
     }
     
-    .menuicon > .line1{
-        height: 5px;
-        width: 50px;
-    }
-    .menuicon > .line2{
-        height: 5px;
-        width: 30px;
-    }
-    .menuicon > .line3{
-        height: 5px;
-        width: 10px;
-    }
+   
 }

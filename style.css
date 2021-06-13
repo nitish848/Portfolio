@@ -222,3 +222,14 @@ strong{
         width: 241px;
         margin-bottom: -27px;
 }
+.menu1{
+    height: 100vh;
+    width: 70%;
+    position: fixed;
+    right: 0%;
+    z-index: 0;
+    margin-top: -71px;
+    box-shadow: 1px 1px 114px 1px #ffffff;
+    background-color: #383737;
+    display: none;
+}
