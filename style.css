@@ -8,7 +8,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 25px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: #383737;
 }
 button{
     outline: none;
@@ -117,7 +121,7 @@ main{
     margin: auto;
     color: white;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 160px;
 }
 main > div{
     display: flex;
@@ -164,4 +168,57 @@ main .gitbtn:hover{
 }
 strong{
     color: #0FDAB5;
+}
+.ednSkills{
+    color: white;
+    font-size: 77%;
+    width: 80%;
+    margin: auto;
+    margin-left: 17%;
+}
+
+.ednSkills h3 {
+    font-size: 50px;
+    margin-bottom: -20px;
+    margin-top: 97px
+}
+.ednSkills h4 {
+    font-size: 33px;
+    margin-left: 15px;
+    margin-bottom: -42px;
+
+}
+.ednSkills h5{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: -48px;
+;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row1 .item{
+        display: flex;
+        width: 241px;
+        margin-bottom: -27px;
+}
+.fa, .fas {
+    font-weight: 900;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+
+.row2{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row2 .item{
+        display: flex;
+        width: 241px;
+        margin-bottom: -27px;
 }
