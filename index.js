@@ -11,7 +11,6 @@ function menuclick() {
         line1.style.transform = `rotate(45deg) translate(13px, 6px)`;
         line3.style.transform = `rotate(-45deg) translate(15px, -13px)`;
         menu1.style.width = `70%`;
-        menu1.style.display = `flex`;
     }
     else {
         line2.style.width = `40px`;

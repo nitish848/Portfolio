@@ -231,6 +231,6 @@ strong{
     margin-top: -71px;
     box-shadow: 1px 1px 114px 1px #ffffff;
     background-color: #383737;
-    display: none;
+    display: flex;
     transition: all 0.6s ease 0.1s;
 }
