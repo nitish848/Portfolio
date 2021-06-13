@@ -10,6 +10,7 @@ function menuclick() {
         line3.style.width = `100%`;
         line1.style.transform = `rotate(45deg) translate(13px, 6px)`;
         line3.style.transform = `rotate(-45deg) translate(15px, -13px)`;
+        menu1.style.width = `70%`;
         menu1.style.display = `flex`;
     }
     else {
@@ -17,6 +18,6 @@ function menuclick() {
         line3.style.width = `20px`;
         line1.style.transform = `rotate(0deg) translate(0px, 0px)`;
         line3.style.transform = `rotate(0deg) translate(0px, 0px)`;
-        menu1.style.display = `none`;
+        menu1.style.width = `0%`;
     }
 }
