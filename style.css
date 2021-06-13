@@ -142,7 +142,6 @@ main .gitbtn{
     background-color: #383737;
     font-size: 20px;
     color: #0FDAB5;
-    box-shadow: 10px 10px #0FDAB5;
 }
 main .gitbtn:hover{
     box-shadow: 2px 2px 7px 2px #0fdab5;
