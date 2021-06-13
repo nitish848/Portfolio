@@ -4,6 +4,10 @@ body{
     font-size: 200.5%;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #0FDAB5;
+}
 header{
     display: flex;
     align-items: center;
