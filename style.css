@@ -236,7 +236,7 @@ strong{
     width: 0%;
     position: fixed;
     right: 0%;
-    z-index: 0;
+    z-index: 1;
     margin-top: -71px;
     box-shadow: 1px 1px 114px 1px #ffffff;
     background-color: #383737;
