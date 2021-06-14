@@ -5,6 +5,7 @@ let line3 = document.querySelector(".line3");
 const menu1 = document.querySelector(".menu1");
 const menubtn = document.querySelector(".menu1>button");
 const menuitems = document.querySelector(".menuitems");
+let slideno = 1;
 menuicon.addEventListener('click', menuclick);
 function menuclick() {
     if (line2.style.width === "40px") {
@@ -31,3 +32,92 @@ window.onload = function fun1() {
     main.style.opacity = '1';
     main.style.transform = `translateX(0px)`;
 }
+const slide1 = document.querySelector(".slide1");
+const btnprev = document.querySelector(".btnprev");
+const btnnext = document.querySelector(".btnnext");
+btnnext.addEventListener("click", () => {
+    slideno++;
+    if (slideno > 3) {
+        slideno = 1;
+    }
+    if (slideno === 1) {
+        slide1.innerHTML = `
+        <h1>Food Delivery App</h1>
+        <div class="projectimg">
+            <img src="foodapp1.png" alt="">
+        </div>
+        <div class="slidebtn">
+            <button>Screenshots</button>
+            <button>Visit</button>
+        </div>
+    `;
+    }
+    if (slideno === 2) {
+        slide1.innerHTML = `
+    <h1>Personal Portfolio</h1>
+    <div class="projectimg">
+        <img src="portfolio.png" alt="">
+    </div>
+    <div class="slidebtn">
+        <button>Screenshots</button>
+        <button>Visit</button>
+    </div>
+    `;
+    }
+    if (slideno === 3) {
+        slide1.innerHTML = `
+    <h1>Amazon Clone</h1>
+    <div class="projectimg">
+        <img src="hello.png" alt="">
+    </div>
+    <div class="slidebtn">
+        <button>Screenshots</button>
+        <button>Visit</button>
+    </div>
+    `;
+    }
+});
+btnprev.addEventListener("click", () => {
+    slideno--;
+    if (slideno < 1) {
+        slideno = 3;
+    }
+    if (slideno === 1) {
+        slide1.innerHTML = `
+        <h1>Food Delivery App</h1>
+        <div class="projectimg">
+            <img src="foodapp1.png" alt="">
+        </div>
+        <div class="slidebtn">
+            <button>Screenshots</button>
+            <button>Visit</button>
+        </div>
+    `;
+    }
+    if (slideno === 2) {
+        slide1.innerHTML = `
+    <h1>Personal Portfolio</h1>
+    <div class="projectimg">
+        <img src="portfolio.png" alt="">
+    </div>
+    <div class="slidebtn">
+        <button>Screenshots</button>
+        <button>Visit</button>
+    </div>
+    `;
+    }
+    if (slideno === 3) {
+        slide1.innerHTML = `
+    <h1>Amazon Clone</h1>
+    <div class="projectimg">
+        <img src="hello.png" alt="">
+    </div>
+    <div class="slidebtn">
+        <button>Screenshots</button>
+        <button>Visit</button>
+    </div>
+    `;
+    }
+
+});
+

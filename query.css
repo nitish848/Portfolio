@@ -187,3 +187,48 @@
     
    
 }
+@media only screen and (max-width: 1140px) {
+    .projectimg{
+        height: 300px;
+        width: 500px;
+        border-radius: 10px;
+    }
+    .projectimg img{
+        height: 310px;
+        width: 510px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .projectimg{
+        height: 250px;
+        width: 450px;
+    }
+    .projectimg img{
+        height: 260px;
+        width: 460px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .projectimg{
+        height: 200px;
+        width: 380px;
+    }
+    .projectimg img{
+        height: 210px;
+        width: 390px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .projectimg{
+        height: 100px;
+        width: 230px;
+    }
+    .projectimg img{
+        height: 110px;
+        width: 240px;
+    }
+    .project h1{
+        font-size: 30px;
+    }
+}
