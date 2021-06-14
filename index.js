@@ -26,3 +26,8 @@ function menuclick() {
         menuitems.style.display = `none`;
     }
 }
+const main = document.querySelector("main");
+window.onload = function fun1() {
+    main.style.opacity = '1';
+    main.style.transform = `translateX(0px)`;
+}

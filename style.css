@@ -17,6 +17,7 @@ header{
     width: 100%;
     top: 0%;
     background-color: #383737;
+    z-index: 10;
 }
 button{
     outline: none;
@@ -126,6 +127,10 @@ main{
     color: white;
     font-weight: bolder;
     margin-top: 160px;
+    transition: all 0.6s ease-in;
+    transform: translateX(-300px);
+    opacity: 0;
+    z-index: -1;
 }
 main > div{
     display: flex;
