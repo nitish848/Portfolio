@@ -3,6 +3,8 @@ let line1 = document.querySelector(".line1");
 let line2 = document.querySelector(".line2");
 let line3 = document.querySelector(".line3");
 const menu1 = document.querySelector(".menu1");
+const menubtn = document.querySelector(".menu1>button");
+const menuitems = document.querySelector(".menuitems");
 menuicon.addEventListener('click', menuclick);
 function menuclick() {
     if (line2.style.width === "40px") {
@@ -11,6 +13,8 @@ function menuclick() {
         line1.style.transform = `rotate(45deg) translate(13px, 6px)`;
         line3.style.transform = `rotate(-45deg) translate(15px, -13px)`;
         menu1.style.width = `70%`;
+        menubtn.style.display = `block`;
+        menuitems.style.display = `flex`;
     }
     else {
         line2.style.width = `40px`;
@@ -18,5 +22,7 @@ function menuclick() {
         line1.style.transform = `rotate(0deg) translate(0px, 0px)`;
         line3.style.transform = `rotate(0deg) translate(0px, 0px)`;
         menu1.style.width = `0%`;
+        menubtn.style.display = `none`;
+        menuitems.style.display = `none`;
     }
 }
