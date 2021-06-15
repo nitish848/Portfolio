@@ -48,7 +48,8 @@ btnnext.addEventListener("click", () => {
         </div>
         <div class="slidebtn">
             <button>Screenshots</button>
-            <button href="https://nitish848.github.io/FoodApp1/">Visit</button>
+            <button><a href="https://nitish848.github.io/FoodApp1">Visit</a></button>
+
         </div>
     `;
     }
@@ -60,7 +61,7 @@ btnnext.addEventListener("click", () => {
     </div>
     <div class="slidebtn">
         <button>Screenshots</button>
-        <button href="https://nitishrana.website/">Visit</button>
+        <button><a href="https://nitishrana.website/">Visit</a></button>
     </div>
     `;
     }
@@ -72,7 +73,7 @@ btnnext.addEventListener("click", () => {
     </div>
     <div class="slidebtn">
         <button>Screenshots</button>
-        <button href="https://challenge-db586.web.app/">Visit</button>
+        <button><a href="https://challenge-db586.web.app/">Visit</a></button>
     </div>
     `;
     }
@@ -90,7 +91,7 @@ btnprev.addEventListener("click", () => {
         </div>
         <div class="slidebtn">
             <button>Screenshots</button>
-            <button href="https://nitish848.github.io/FoodApp1/">Visit</button>
+            <button><a href="https://nitish848.github.io/FoodApp1/">Visit</a></button>
         </div>
     `;
     }
@@ -102,7 +103,7 @@ btnprev.addEventListener("click", () => {
     </div>
     <div class="slidebtn">
         <button>Screenshots</button>
-        <button href="https://nitishrana.website/">Visit</button>
+        <button><a href="https://nitishrana.website/">Visit</a></button>
     </div>
     `;
     }
@@ -114,7 +115,7 @@ btnprev.addEventListener("click", () => {
     </div>
     <div class="slidebtn">
         <button>Screenshots</button>
-        <button href="https://challenge-db586.web.app/">Visit</button>
+        <button><a href="https://challenge-db586.web.app/">Visit</a></button>
     </div>
     `;
     }
