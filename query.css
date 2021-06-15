@@ -246,4 +246,28 @@
         font-size: 40px;
         margin-left: 52px;
     }
+    .project h1 {
+        font-size: 19px;
+    }
+    
+    
+}
+@media only screen and (max-width: 390px) {
+    .project h3 {
+        font-size: 30px;
+        margin-left: 52px;
+    }
+    .slidebtn button{
+        height: 30px;
+        width: 90px;
+        font-size: 14px;
+    }
+    .projectimg img {
+        height: 90px;
+        width: 200px;
+    }
+    .projectimg{
+        height: 80px;
+        width: 190px;
+    }
 }
